@@ -11,7 +11,7 @@ def thread(cs):
     argument = argument.decode('utf-8')
 
     if argument == 'LOGIN':
-        with open('E:\\Workspace\\Code\\Projects\\Task App - Server Side\\Server\\cred.json', 'r') as f:
+        with open('E:\\Workspace\\Code\\Projects\\Task App - Server Side\\task-app-server\\cred.json', 'r') as f:
             data = f.read()
 
         cs.send(bytes(data,'utf-8'))
@@ -28,7 +28,7 @@ def thread(cs):
         
 
     if argument == 'SEND_NOTICE':
-        with open('E:\\Workspace\\Code\\Projects\\Task App - Server Side\\Server\\Notices\\data.json','r') as f:
+        with open('E:\\Workspace\\Code\\Projects\\Task App - Server Side\\task-app-server\\Notices\\data.json','r') as f:
             data = f.read()
             f.close()
 
@@ -39,7 +39,7 @@ def thread(cs):
 
         data = json.loads(data)
 
-        with open('E:\\Workspace\\Code\\Projects\\Task App - Server Side\\Server\\Notices\\data.json','w') as f:
+        with open('E:\\Workspace\\Code\\Projects\\Task App - Server Side\\task-app-server\\Notices\\data.json','w') as f:
             json.dump(data, f, indent=4)
             f.close()
 
@@ -49,7 +49,7 @@ def thread(cs):
 
 
     if argument == 'SEND_HOMEWORK':
-        with open('E:\\Workspace\\Code\\Projects\\Task App - Server Side\\Server\\Homework\\data.json','r') as f:
+        with open('E:\\Workspace\\Code\\Projects\\Task App - Server Side\\task-app-server\\Homework\\data.json','r') as f:
             data = f.read()
             f.close()
 
@@ -60,7 +60,7 @@ def thread(cs):
 
         data = json.loads(data)
 
-        with open('E:\\Workspace\\Code\\Projects\\Task App - Server Side\\Server\\Homework\\data.json','w') as f:
+        with open('E:\\Workspace\\Code\\Projects\\Task App - Server Side\\task-app-server\\Homework\\data.json','w') as f:
             json.dump(data, f, indent=4)
             f.close()
 
