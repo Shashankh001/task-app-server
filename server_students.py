@@ -19,7 +19,7 @@ def thread(cs):
 
         jsonString = pickle.dumps(data)
         cs.send(jsonString)
-        print(f'[Notice] Sent notice data to {address}')
+        print(f'[NOTICE   ] Sent notice data to {address}')
 
     if msg == 'HOMEWORK':
         with open('Homework\\data.json','r') as f:
@@ -28,7 +28,7 @@ def thread(cs):
 
         jsonString = pickle.dumps(data)
         cs.send(jsonString)
-        print(f'[Homework] Sent homework data to {address}')
+        print(f'[HOMEWORK ] Sent homework data to {address}')
 
 while True:
     cs, address = s.accept()

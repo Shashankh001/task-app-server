@@ -3,7 +3,7 @@ from threading import Thread
 import time
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.bind(('0.0.0.0',2232))
+s.bind(('0.0.0.0',2231))
 s.listen(100)
 
 

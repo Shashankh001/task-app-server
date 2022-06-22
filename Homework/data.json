@@ -1,48 +1,20 @@
 [
     {
-        "Teacher": "Juliana",
-        "Subject": "Maths",
-        "Time": "08:53 PM",
-        "Date": "2022-06-10",
+        "Teacher": "Devi",
+        "Subject": "AI",
+        "Time": "05:18 PM",
+        "Date": "2022-06-22",
         "Attachments": [
-            "https://mega.co.nz/#!8BhlXQCD!mhuZm4kdT12imV1ZpbEIqP4s7iOZBMU6hSPHduToGtM"
+            "https://mega.co.nz/#!tNQElAyA!-OWdCLMekUMH_zTdHq7WZoeBZOt0WgBlf2Ma2M-3bQE"
         ],
-        "Context": "Submit your maths assignment on monday uwu."
+        "Context": "Complete your question and answers."
     },
     {
-        "Teacher": "Juliana",
-        "Subject": "Maths",
-        "Time": "04:14 PM",
-        "Date": "2022-06-16",
+        "Teacher": "Devi",
+        "Subject": "AI",
+        "Time": "05:19 PM",
+        "Date": "2022-06-22",
         "Attachments": [],
-        "Context": "Wowwwwww a homeworkrkrkr???!?!?!?!!\n"
-    },
-    {
-        "Teacher": "Raji",
-        "Subject": "English",
-        "Time": "10:46 PM",
-        "Date": "2022-06-16",
-        "Attachments": [
-            "https://mega.co.nz/#!UcABgAKS!JKjYYIflgUFvutvvbjYEqHjZDxIhZPnXpt0XcDz90-w"
-        ],
-        "Context": ""
-    },
-    {
-        "Teacher": "Raji",
-        "Subject": "English",
-        "Time": "10:49 PM",
-        "Date": "2022-06-16",
-        "Attachments": [],
-        "Context": ""
-    },
-    {
-        "Teacher": "Raji",
-        "Subject": "English",
-        "Time": "10:49 PM",
-        "Date": "2022-06-16",
-        "Attachments": [
-            "https://mega.co.nz/#!8E4ghYRb!-HHY66rpf1emnI_cYoR44P7-oAL8i3b8KbpaE5qG3VA"
-        ],
-        "Context": ""
+        "Context": "test 123"
     }
 ]
