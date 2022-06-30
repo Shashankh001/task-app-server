@@ -1,1 +1,0 @@
-open('Notices\\data.json','w')
